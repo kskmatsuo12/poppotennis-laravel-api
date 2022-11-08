@@ -55,7 +55,7 @@ jobs:
       - run:
           name: "Create database and run migration"
           command: |
-            touch database/testing.sqlite
+            touch database/database.sqlite
             php artisan migrate --env=testing --database=sqlite --force
 
       # run tests with phpunit or codecept
