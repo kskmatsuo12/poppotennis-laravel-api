@@ -5,6 +5,8 @@ namespace Tests\Feature;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
+use App\Models\User;
+
 class ExampleTest extends TestCase
 {
     /**
@@ -14,6 +16,7 @@ class ExampleTest extends TestCase
      */
     public function test_example()
     {
+        $users = User::get();
         $response = $this->get('/');
 
         $response->assertStatus(200);
