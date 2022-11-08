@@ -46,7 +46,7 @@ return [
         'sqlite_testing' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
-            'database' => ':memory:',
+            'database' => 'storage/sqlite.testing',
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
