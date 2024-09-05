@@ -2,8 +2,8 @@
 
 ## 記事URL
 
-https://poppotennis.com/posts/laravel-nuxt-api
+https://laratech.jp/posts/laravel-nuxt-api
 
 ## Nuxt側のGitHub
 
-https://github.com/kskmatsuo12/poppotennis-nuxt-api
+https://github.com/kskmatsuo12/nuxt-laravel-front
